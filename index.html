@@ -107,10 +107,11 @@
 
         <p class="description aqua">Появились вопросы или хотите пообщаться?</p>
 
-        <form action="">
-            <input class="input" type="text" placeholder="Ваше имя" autocomplete="given-name">
-            <input class="input"type="email" placeholder="Email" autocomplete="email">
-            <textarea class="input" placeholder="Ваше сообщение"></textarea>
+        <form action="mailto:olegnikod3@gmail.com">
+            <input name="subject" value="Хотелось бы с вами пообщаться)" class="input" type="hidden">
+            <input name="name" class="input" type="text" placeholder="Ваше имя" autocomplete="given-name" required>
+            <input name="emailFrom" class="input"type="email" placeholder="Email" autocomplete="email" required>
+            <textarea name="body" class="input" placeholder="Ваше сообщение" required></textarea>
 
             <button class="btn" type="submit">Отправить</button>
         </form>
