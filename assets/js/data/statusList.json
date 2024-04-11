@@ -1,0 +1,38 @@
+[
+    {
+        "name": "C#",
+        "bgColor":"#512BD4",
+        "percent": 80
+    },
+    
+    {
+        "name": "JavaScript",
+        "bgColor":"#F7DF1E",
+        "percent": 65
+    },
+    
+    
+    {
+        "name": "Java",
+        "bgColor":"#FF7800",
+        "percent": 60
+    },
+    
+    {
+        "name": "PHP",
+        "bgColor":"#777BB4",
+        "percent": 50
+    },
+    
+    {
+        "name": "Dart",
+        "bgColor":"#0175C2",
+        "percent": 40
+    },
+    
+    {
+        "name": "C++",
+        "bgColor":"#00599C",
+        "percent": 20
+    }
+]

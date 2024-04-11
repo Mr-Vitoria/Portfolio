@@ -1,0 +1,147 @@
+@font-face {
+    font-family: "Roboto-Slab";
+    src: url("../fonts/ROBOTOSLAB-REGULAR.ttf");
+}
+@font-face {
+    font-family: "Roboto-Slab";
+    font-weight: bold;
+    src: url("../fonts/ROBOTOSLAB-MEDIUM.ttf");
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto-Slab";
+    color: var(--main-text-color);
+}
+
+
+
+*::-webkit-scrollbar {
+    width: 6px;
+}
+
+*::-webkit-scrollbar-track {
+    background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #6c6c6cff;
+    border-radius: 5px;
+}
+
+:root{
+    --body-bg-color: #1E1E1E;
+    --main-bg-color: #3C3C3C;
+
+    --main-text-color: white;
+    --hover-text-color: #E6E6E6;
+
+    --second-bg-color: #19C2C8;
+    --second-text-color: white;
+}
+
+.btn{
+    transition-duration: 300ms;
+    background-color: transparent;
+    outline: none;
+    border: 2px solid var(--main-text-color);
+    width: fit-content;
+    
+    font-size: 1.5em;
+    padding: 8px 12px;
+    border-radius: 10px;
+}
+.btn:active{
+    transition-duration: 300ms;
+    transform: scale(0.95);
+}
+.btn:hover{
+    transition-duration: 300ms;
+    border: 2px solid var(--second-bg-color);
+    background-color: var(--second-bg-color);
+
+}
+
+.input{
+    border: none;
+    outline: none;
+    background-color: var(--main-bg-color);
+    font-size: 1.5em;
+    margin: 10px 0;
+    padding: 8px 12px;
+    border-radius: 10px;
+
+    resize: vertical;
+}
+
+.link{
+    text-decoration: none;
+    color: var(--main-text-color);
+    font-size: 1.3em;
+
+    transition-duration: 250ms;
+    border-bottom: 2px solid transparent;
+
+}
+.link.active{
+    border-bottom: 2px solid var(--main-text-color);
+}
+.link:hover{
+    transition-duration: 250ms;
+    border-bottom: 2px solid var(--main-text-color);
+
+}
+.link:active{
+    transition-duration: 250ms;
+    transform: scale(0.95);
+}
+
+
+hr{
+    height: 2px;
+    background-color: var(--second-bg-color);
+    border: none;
+}
+.accessor{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin: 20px 0;
+}
+.accessor .block{
+    height: 2px;
+    width: 75px;
+    background-color: var(--main-bg-color);
+}
+
+.accessor .block.active{
+    background-color: var(--second-bg-color);
+}
+
+body{
+    background-color: var(--body-bg-color);
+}
+
+h2{
+    margin-top: 50px;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+}
+
+.blur{
+    width: 100%;
+    position: relative;
+    top: -75px;
+    height: 75px;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(180deg, rgba(2,0,36,0) 0%, rgba(30,30,30,1) 42%);
+}

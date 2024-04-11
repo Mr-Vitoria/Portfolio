@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+
+    <link rel="stylesheet" href="assets/css/site.css">
+    <link rel="stylesheet" href="assets/css/index.css">
+</head>
+
+<body>
+    <section id="welcome" style="background-image: url('assets/img/backgrounds/miku.gif');">
+        <div id="menu">
+            <div class="content" >
+                <h1>
+                    <a href="#welcome">Vitoria</a>
+                </h1>
+                <hr />
+                <nav>
+                    <a class="link" href="#about">Обо мне</a>
+                    <a class="link" href="#tech">Стек технологий</a>
+                    <a class="link" href="#projectList">Проекты</a>
+                    <a class="link" href="#contact">Связь со мной</a>
+                </nav>
+            </div>
+
+            <button>
+                <img src="assets/img/icons/burger.svg" alt="...">
+            </button>
+        </div>
+    </section>
+    <div class="blur"></div>
+
+    <section id="about">
+        <h2>Обо мне</h2>
+        <div class="accessor">
+            <div class="block"></div>
+            <div class="block active"></div>
+            <div class="block"></div>
+        </div>
+
+        <p class="description">
+            Привет! Я Fullstack разработчик из России. Моя работа включает в себя все аспекты разработки веб- и
+            мобильных приложений - от дизайна и программирования до тестирования и интеграции.
+            Я хорошо знаком с языками программирования JavaScript, Java, C# и PHP, а также с базами данных и системами
+            контроля версий.
+        </p>
+
+        <div class="container">
+            <div class="imgContainer">
+                <img src="assets/img/backgrounds/god.jpg" alt="Изображение">
+                <p>Админ сервера "Земля"</p>
+            </div>
+
+            <div class="statusList">
+                
+            </div>
+        </div>
+    </section>
+
+    <section id="tech">
+        
+        <h2>Стек технологий</h2>
+        <div class="accessor">
+            <div class="block"></div>
+            <div class="block active"></div>
+            <div class="block"></div>
+        </div>
+
+        <p class="description">В портфолио представлены такие технологии, как frontend-разработка (HTML, CSS, JavaScript), backend-разработка (Node.js, Python, Java), мобильная разработка (Android, iOS), работа с базами данных (SQL, NoSQL), использование API.
+        </p>
+
+        <div class="techList">
+            
+        </div>
+    </section>
+
+
+    <section id="projectList">
+        <h2>Проекты</h2>
+        <div class="accessor">
+            <div class="block"></div>
+            <div class="block active"></div>
+            <div class="block"></div>
+        </div>
+
+        <div class="tagList">
+            
+        </div>
+
+        <div class="projectList">
+
+        </div>
+    </section>
+
+    <section id="contact">
+
+        <h2>Связаться со мной</h2>
+        <div class="accessor">
+            <div class="block"></div>
+            <div class="block active"></div>
+            <div class="block"></div>
+        </div>
+
+        <p class="description aqua">Появились вопросы или хотите пообщаться?</p>
+
+        <form action="">
+            <input class="input" type="text" placeholder="Ваше имя" autocomplete="given-name">
+            <input class="input"type="email" placeholder="Email" autocomplete="email">
+            <textarea class="input" placeholder="Ваше сообщение"></textarea>
+
+            <button class="btn" type="submit">Отправить</button>
+        </form>
+    </section>
+
+    <div class="modalContainer">
+        <div class="modal">
+            <div class="body">
+                <div class="textContainer">
+                    <p class="type">Некоммерческое приложение</p>
+                    <p class="title">OuTouch Anime</p>
+                    <p class="descr">Веб-система для просмотра аниме</p>
+                    <p class="technologies">Используемые технологии: ASP.NET Core 7.0, Razor Pages, PostgreSql</p>
+                    <div class="linkContainer">
+                        <a class="link code" href="#" target="_blank">Посмотреть код <img src="assets/img/icons/arrow-right.svg" alt="..."></a>
+                        <a class="link aqua site" href="#" target="_blank">Посмотреть сайт <img src="assets/img/icons/arrow-right-aqua.svg" alt="..."></a>
+                    </div>
+                </div>
+                <div class="imgContainer">
+                    <img class="projectImg" src="assets/img/backgrounds/pr_1.png" alt="Проект 1...">
+                </div>
+            </div>
+
+            <div class="footer">
+                <button class="close">
+                    <img src="assets/img/icons/x-mark.svg" alt="Закрыть">
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>Vitoria © 2024</p>
+        <div class="socialList">
+            <a href="https://github.com/Mr-Vitoria" class="social"><img src="assets/img/icons/github.svg" alt="Иконка"></a>
+            <a href="https://steamcommunity.com/profiles/76561199104348160/" class="social"><img src="assets/img/icons/steam.svg" alt="Иконка"></a>
+            <a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D0%B3" class="social"><img src="assets/img/icons/wikipedia.svg" alt="Иконка"></a>
+            <a href="https://t.me/Mr_Vitoria" class="social"><img src="assets/img/icons/telegram.svg" alt="Иконка"></a>
+            <a href="https://discord.com/users/741634972993060905" class="social"><img src="assets/img/icons/discord.svg" alt="Иконка"></a>
+        </div>
+    </footer>
+    
+    <script type="module" src="assets/js/site.js"></script>
+    <script type="module" src="assets/js/menu.js"></script>
+</body>
+
+</html>

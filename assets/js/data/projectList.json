@@ -1,0 +1,89 @@
+[
+    {
+        "title": "OuTouch Anime",
+        "author": "Vitoria",
+        "mainImg": "assets/img/backgrounds/pr_1.png",
+        "description": "Веб-система для просмотра аниме",
+        "technologies": [
+            {
+                "type": "ASP.NET",
+                "title": "ASP.NET Core 7.0"
+            },
+            {
+                "type": "ASP.NET",
+                "title": "Razor Pages"
+            },
+            {
+                "type": "ASP.NET",
+                "title": "PostgreSql"
+            }
+        ],
+        "gitLink":"https://github.com/Mr-Vitoria/OuTouchAnime",
+        "siteLink":"http://anime.outouch.ru",
+        "type":"Некоммерческое приложение"
+    },
+    
+    {
+        "title": "Nedopoisk",
+        "author": "Vitoria",
+        "mainImg": "assets/img/backgrounds/pr_2.png",
+        "description": "Веб-система для просмотра фильмов",
+        "technologies": [
+            {
+                "type": "HTML5/CSS3",
+                "title": "HTML5 + CSS3"
+            },
+            {
+                "type": "HTML5/CSS3",
+                "title": "JavaScript "
+            }
+        ],
+        "gitLink":"https://github.com/Mr-Vitoria/Nedopoisk",
+        "siteLink":"https://course-project-n2gt-n9mb80185-vitorias-projects-421fa484.vercel.app/",
+        "type":"Курсовой проект"
+    },
+    
+    {
+        "title": "OuTouch Tasks",
+        "author": "Vitoria",
+        "mainImg": "assets/img/backgrounds/pr_3.png",
+        "description": "Веб-система для Project Managment`а",
+        "technologies": [
+            {
+                "type": "ASP.NET",
+                "title": "ASP.NET Core 7.0"
+            },
+            {
+                "type": "React",
+                "title": "React"
+            },
+            {
+                "type": "ASP.NET",
+                "title": "PostgreSql"
+            }
+        ],
+        "gitLink":"https://github.com/Mr-Vitoria/To_Do_App_View",
+        "siteLink":"https://github.com/Mr-Vitoria/To_Do_App_View",
+        "type":"Некоммерческое приложение"
+    },
+    
+    {
+        "title": "OuTouch Player",
+        "author": "Vitoria",
+        "mainImg": "assets/img/backgrounds/pr_4.gif",
+        "description": "Веб-плеер",
+        "technologies": [
+            {
+                "type": "Laravel",
+                "title": "Laravel"
+            },
+            {
+                "type": "Laravel",
+                "title": "MySQL"
+            }
+        ],
+        "gitLink":"https://github.com/Mr-Vitoria/Web-Media-Player",
+        "siteLink":"https://github.com/Mr-Vitoria/Web-Media-Player",
+        "type":"Курсовой проект"
+    }
+]

@@ -1,0 +1,113 @@
+[
+    {
+        "title": "ЯП",
+        "list": [
+            {
+                "name": "Dart",
+                "mainColor": "#0175C2",
+                "icon": "assets/img/icons/dart.svg"
+            },
+            
+            {
+                "name": "Java",
+                "mainColor": "#FF7800",
+                "icon": "assets/img/icons/java.svg"
+            },
+            
+            {
+                "name": "PHP",
+                "mainColor": "#777BB4",
+                "icon": "assets/img/icons/php.svg"
+            },
+            
+            {
+                "name": "C#",
+                "mainColor": "#512BD4",
+                "icon": "assets/img/icons/csharp.svg"
+            },
+            
+            {
+                "name": "JavaScript",
+                "mainColor": "#F7DF1E",
+                "icon": "assets/img/icons/javascript.svg"
+            }
+        ]
+    },
+    
+    {
+        "title": "Фрейморки",
+        "list": [
+            {
+                "name": "Flutter",
+                "mainColor": "#02569B",
+                "icon": "assets/img/icons/flutter.svg"
+            },
+            
+            {
+                "name": "Spring",
+                "mainColor": "#6DB33F",
+                "icon": "assets/img/icons/spring.svg"
+            },
+            
+            {
+                "name": "Laravel",
+                "mainColor": "#FF2D20",
+                "icon": "assets/img/icons/laravel.svg"
+            },
+            
+            {
+                "name": ".NET",
+                "mainColor": "#512BD4",
+                "icon": "assets/img/icons/dotnet.svg"
+            },
+            
+            {
+                "name": "Node.JS",
+                "mainColor": "#339933",
+                "icon": "assets/img/icons/nodedotjs.svg"
+            },
+            
+            {
+                "name": "React",
+                "mainColor": "#61DAFB",
+                "icon": "assets/img/icons/react.svg"
+            },
+            
+            {
+                "name": "SASS",
+                "mainColor": "#CC6699",
+                "icon": "assets/img/icons/sass.svg"
+            }
+        ]
+    },
+    
+    {
+        "title": "Инструменты",
+        "list": [
+            {
+                "name": "Docker",
+                "mainColor": "#2496ED",
+                "icon": "assets/img/icons/docker.svg"
+            },
+            
+            {
+                "name": "PostgreSql",
+                "mainColor": "#4169E1",
+                "icon": "assets/img/icons/postgresql.svg"
+            },
+            
+            {
+                "name": "MS SQL",
+                "mainColor": "#CC2927",
+                "icon": "assets/img/icons/microsoftsqlserver.svg"
+            },
+            
+            {
+                "name": "Postman",
+                "mainColor": "#FF6C37",
+                "icon": "assets/img/icons/postman.svg"
+            }
+        ]
+    }
+
+]
