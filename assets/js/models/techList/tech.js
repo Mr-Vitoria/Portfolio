@@ -15,6 +15,7 @@ export class Tech {
     render() {
         let tech = document.createElement("div");
         tech.classList.add("tech");
+        tech.classList.add("animation");
         let techImg = document.createElement("img");
         techImg.src = this.icon;
         techImg.alt = "Иконка";

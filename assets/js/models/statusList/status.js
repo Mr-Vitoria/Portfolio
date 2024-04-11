@@ -13,6 +13,7 @@ export class Status{
         
         let status = document.createElement("div");
         status.classList.add("circle-wrap");
+        status.classList.add("animation");
 
         status.innerHTML = `
         <div class="circle">

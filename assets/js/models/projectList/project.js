@@ -8,6 +8,7 @@ export class Project{
         this.projectObject = document.createElement("div");
         this.projectObject.classList.add("project");
         this.projectObject.classList.add("show");
+        this.projectObject.classList.add("animation");
 
         this.projectObject.addEventListener("click", (ev) => {
             this.modalProject.openModal(this.project);
