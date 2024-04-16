@@ -1,11 +1,11 @@
 @font-face {
     font-family: "Roboto-Slab";
-    src: url("https://github.com/Mr-Vitoria/Portfolio/blob/main/assets/fonts/ROBOTOSLAB-REGULAR.TTF");
+    src: url("assets/fonts/ROBOTOSLAB-REGULAR.ttf");
 }
 @font-face {
     font-family: "Roboto-Slab";
     font-weight: bold;
-    src: url("https://github.com/Mr-Vitoria/Portfolio/blob/main/assets/fonts/ROBOTOSLAB-MEDIUM.TTF");
+    src: url("assets/fonts/ROBOTOSLAB-MEDIUM.ttf");
 }
 
 html{
