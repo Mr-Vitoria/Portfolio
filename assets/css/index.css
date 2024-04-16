@@ -653,4 +653,10 @@ footer img:active {
   section {
     padding: 0 30px;
   }
+}
+@media (max-width: 500px) {
+  #welcome #menu {
+    bottom: 10%;
+    left: 5%;
+  }
 }/*# sourceMappingURL=index.css.map */
